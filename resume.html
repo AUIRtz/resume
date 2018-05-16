@@ -1,87 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="Ch-Zhong">
 <head>
-	<title>resume</title>
-	<link rel="stylesheet" type="text/css" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./syle.css">
+    <script src="//at.alicdn.com/t/font_664426_okd6zr1iltf39pb9.js"></script>
+    <style type="text/css">
+      .icon {
+         width: 1em; 
+         height: 1em;
+         vertical-align: -0.15em;
+         fill: currentColor;
+         overflow: hidden;
+      }
+    </style>
 </head>
 <body>
-	<div class="topNavBar" clearfix>
-		<a href="#" class="logo">
-			<span class="RS">RS</span><span class="card">card</span>
-		</a>
-		<nav>
-			<ul class="clearfix">
-				<li><a href="#">关于</a></li>
-				<li><a href="#">技能</a></li>
-				<li><a href="#">作品</a></li>
-				<li><a href="#">博客</a></li>
-				<li><a href="#">日历</a></li>
-				<li><a href="#">联系方式</a></li>
-				<li><a href="#">其他</a></li>
-			</ul>
-		</nav>
-	</div>
-	<div class="banner" style="background-image: url(#);"></div>
-	<!-- 忘记内联style -->
-	<main>
-		<div class="card"></div>
-			<div class="profile">
-				<div class="picture">
-					<img src="#" alt="图像">
-				</div>
-				<div class="text">
-					<span class="welcome">Hello!</span>
-					<h1>名字</h1>
-					<p>前（端）</p>
-					<hr>
-					<dl>
-						<dt>年龄</dt>
-						<dd>18</dd>
-						<dt>所在城市</dt>
-						<dd>杭州</dd>
-						<dt>邮箱</dt>
-						<dd>auirtz@gmail.com</dd>
-						<dt>手机</dt>
-						<dd>138xxxxxxxxxxx</dd>
-					</dl>
-				</div>
-			</div>
-			<div>
-				<footer class="social">
-					<a href="#"><img src="#" alt="social"></a>
-					<a href="#"><img src="#" alt="social"></a>
-					<a href="#"><img src="#" alt="social"></a>
-				</footer>
-			</div>
-		</div>
-		<a class="button" href="#" target="_blank">下载简历</a>
-		<p>较长的自我介绍</p>
-	</main>
-	<section>
-		<h2>专业技能</h2>
-		<div>
-			<ol>
-        		<li>HTML 5 &amp; CSS 3</li>
-        		<li>JavaScript</li>
-        		<li>jQuery</li>
-       			<li>Vue</li>
-        		<li>React</li>
-        		<li>HTTP</li>
-			</ol>
-		</div>
-	</section>
-	<section>
-		<h2>作品集</h2>
-		<ol>
-			<li>所有</li>
-        	<li>框架</li>
-        	<li>原生JS&amp;CSS</li>
-		</ol>
-		<div class="work">
-			<div class="big"></div>
-			<div class="small"></div>
-			<div class="small"></div>
-		</div>
-	</section>
+  <div class="topNavBar">
+    <div class="topNavBar-inner clearfix">
+      <a class="logo" href="#" alt="logo">
+        <span class="RS">RS</span><span class="card">card</span>
+      </a>
+      <!-- source:来源=src alternative:供选择；可选内容=alt -->
+      <nav><!-- navigation:导航 -->
+        <ul class="clearfix"><!-- unordered list:无序列表 -->
+          <!-- list item:列表项 -->
+          <li><a href="#">关于</a></li>
+          <li><a href="#">技能</a></li>
+          <li><a href="#">作品</a></li>
+          <li><a href="#">博客</a></li>
+          <li><a href="#">日历</a></li>
+          <li><a href="#">联系方式</a></li>
+          <li><a href="#">其他</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="banner">
+    <div class="mask"></div>
+  </div>
+  <main>
+    <div class="userCard">
+      <div class="profile clearfix">
+        <div class="picture">
+          <img src="./img/avatar.png" width="300" height="440" alt="头像"/>
+        </div>
+        <div class="text">
+          <span class="welcome">Hello
+            <span class="trigon"></span>
+          </span>
+          <h1>李XX</h1>
+          <p>成长中的顶级前端工程师</p>
+          <hr>
+          <!-- description list:描述列表 -->
+          <dl>
+          <!-- description term:描述词语 -->
+          <dt>年龄</dt>
+          <!-- description definition:描述定义 -->        
+          <dd>26</dd>
+          <dt>地址</dt>
+          <dd>XXX</dd>
+          <dt>E-Mail</dt>
+          <dd>xxx</dd>
+          <dt>电话</dt>
+          <dd>xxx</dd>        
+          </dl>
+        </div>
+      </div>
+      <div>
+        <footer class="media">
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-githublogo"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon--behance"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-tumblr_F"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-555"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-snsshareweiboon"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-instagram"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-twitter"></use>
+            </svg>
+          </a>
+        </footer>
+      </div>
+    </div>
+    <p class="downloadResume-wrapper">
+    <a class="downloadResume" href="#">下载 PDF 简历</a>      
+    </p>
+    <p class="selfIntroduction">个人简介
+     <br> Html/Css/Javascript
+    </p>
+    
+  </main>
+  <section class="skills">
+    <h2>Professional Skills:专业技能</h2>
+    <ol class="clearfix">
+      <li>
+        <h3>
+          HTML 5 &apm; CSS 3
+        </h3>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          Javascript
+        </h3>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          jQuery
+        </h3>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          Vue
+        </h3>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          React
+        </h3>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+      </li>
+      <li>
+        <h3>
+          Node.js
+        </h3>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+      </li>
+    </ol>
+  </section>
+  <section class="portfolio"> 
+    <h2>portfolio:优秀作品集</h2>
+    <nav class="clearfix">
+      <ol>
+        <li id="portfolioAll">所有</li>
+        <li id="portfolioFramework">框架</li>
+        <li id="portfolioVllina">原生JS&amp;CSS</li>
+      </ol>
+      <div id="portfolioBar" class="scrollBar state-1">
+        <div class="bar-inner"></div>
+      </div>
+    </nav>
+    <script>
+      portfolioAll.onclick= function(){
+        portfolioBar.className = 'scrollBar state-1'
+      }
+      portfolioFramework.onclick= function(){
+        portfolioBar.className = 'scrollBar state-2'
+      }
+      portfolioVllina.onclick= function(){
+        portfolioBar.className = 'scrollBar state-3'
+      }
+    </script>
+    <div class="works" style="height: 597px;">
+      <div class="big" style="top: 0; left: 13px">
+        <img src="./img/1.jpg" alt="作品01">
+      </div>
+      <div class="small" style="top: 0;">
+        <img src="./img/2.jpg" alt="作品02">
+      </div>
+      <div class="small" style="top: 312px;">
+        <img src="./img/3.jpg" alt="作品03">
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
