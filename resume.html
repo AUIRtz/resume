@@ -18,7 +18,7 @@
     </style>
 </head>
 <body>
-  <div class="topNavBar">
+  <div di="topNavBar" class="topNavBar">
     <div class="topNavBar-inner clearfix">
       <a class="logo" href="#" alt="logo">
         <span class="RS">RS</span><span class="card">card</span>
@@ -192,6 +192,13 @@
       portfolioVllina.onclick= function(){
         portfolioBar.className = 'scrollBar state-3'
       }
+    </script>
+    <script>
+        if(onScrollY > 0){
+        topNavBar.classList.add('sticky')
+        }else{
+        topNavBar.classList.remove('sticky')
+        } 
     </script>
     <div class="works" style="height: 597px;">
       <div class="big" style="top: 0; left: 13px">
