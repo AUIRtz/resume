@@ -353,3 +353,6 @@ section.portfolio .works .small{
     background-color: white;
     color: black;
 }
+[data-x].active{
+    outline: 10px solid red;
+}
