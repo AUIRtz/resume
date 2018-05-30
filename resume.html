@@ -19,13 +19,13 @@
         <ul class="clearfix"><!-- unordered list:无序列表 -->
           <!-- list item:列表项 -->
           <li>
-            <a href="#">关于</a>
+            <a href="#siteAbout">关于</a>
           </li>
           <li>
-            <a href="#">技能</a>
+            <a href="#siteSkills">技能</a>
           </li>
           <li>
-            <a href="#">作品</a>
+            <a href="#siteWorks">作品</a>
             <ul class="submenu">
               <li>opus1</li>
               <li>opus2</li>
@@ -51,7 +51,7 @@
     <div class="mask"></div>
   </div>
   <main>
-    <div class="userCard">
+    <div data-x id="siteAbout" class="userCard">
       <div class="profile clearfix">
         <div class="picture">
           <img src="./img/avatar.png" width="300" height="440" alt="头像"/>
@@ -126,7 +126,7 @@
     </p>
     
   </main>
-  <section class="skills">
+  <section data-x id='siteSkills' class="skills">
     <h2>Professional Skills:专业技能</h2>
     <ol class="clearfix">
       <li>
@@ -179,7 +179,7 @@
       </li>
     </ol>
   </section>
-  <section class="portfolio"> 
+  <section data-x id="siteWorks" class="portfolio"> 
     <h2>portfolio:优秀作品集</h2>
     <nav class="clearfix">
       <ol>
