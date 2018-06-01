@@ -36,7 +36,7 @@ for(let i = 0; i<liTags.length; i++){
     x.currentTarget.classList.add('active')
   }
   liTags[i].onmouseleave = function(x){
-    x.currentTarget.classList.remove('active')
+    x.currentTarget.classList.remove('active') //
   }
 }
 let aTags = document.querySelectorAll('nav.menu>ul>li>a')
