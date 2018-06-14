@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="Ch-Zhong">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blog</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="//at.alicdn.com/t/font_664426_okd6zr1iltf39pb9.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog</title>
+  <link rel="stylesheet" href="./syle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+
+  <script src="//at.alicdn.com/t/font_664426_okd6zr1iltf39pb9.js"></script>
 </head>
+
 <body>
+
   <div id="topNavBar" class="topNavBar">
     <div class="topNavBar-inner clearfix">
       <a class="logo" href="#" alt="logo">
-        <span class="RS">RS</span><span class="card">card</span>
+        <span class="RS">RS</span>
+        <span class="card">card</span>
       </a>
       <!-- source:来源=src alternative:供选择；可选内容=alt -->
-      <nav class="menu"><!-- navigation:导航 -->
-        <ul class="clearfix"><!-- unordered list:无序列表 -->
+      <nav class="menu">
+        <!-- navigation:导航 -->
+        <ul class="clearfix">
+          <!-- unordered list:无序列表 -->
           <!-- list item:列表项 -->
           <li>
             <a href="#siteAbout">关于</a>
@@ -35,14 +43,20 @@
           <li>
             <a href="#">博客</a>
             <ul class="submenu">
-                <li>blog1</li>
-                <li>blog2</li>
-                <li>blog3</li>
-              </ul>  
+              <li>blog1</li>
+              <li>blog2</li>
+              <li>blog3</li>
+            </ul>
           </li>
-          <li><a href="#">日历</a></li>
-          <li><a href="#">联系方式</a></li>
-          <li><a href="#">其他</a></li>
+          <li>
+            <a href="#">日历</a>
+          </li>
+          <li>
+            <a href="#">联系方式</a>
+          </li>
+          <li>
+            <a href="#">其他</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -54,7 +68,7 @@
     <div data-x id="siteAbout" class="userCard">
       <div class="profile clearfix">
         <div class="picture">
-          <img src="./img/avatar.png" width="300" height="440" alt="头像"/>
+          <img src="./img/avatar.png" width="300" height="440" alt="头像" />
         </div>
         <div class="text">
           <span class="welcome">Hello
@@ -65,16 +79,16 @@
           <hr>
           <!-- description list:描述列表 -->
           <dl>
-          <!-- description term:描述词语 -->
-          <dt>年龄</dt>
-          <!-- description definition:描述定义 -->        
-          <dd>26</dd>
-          <dt>地址</dt>
-          <dd>XXX</dd>
-          <dt>E-Mail</dt>
-          <dd>xxx</dd>
-          <dt>电话</dt>
-          <dd>xxx</dd>        
+            <!-- description term:描述词语 -->
+            <dt>年龄</dt>
+            <!-- description definition:描述定义 -->
+            <dd>26</dd>
+            <dt>地址</dt>
+            <dd>XXX</dd>
+            <dt>E-Mail</dt>
+            <dd>xxx</dd>
+            <dt>电话</dt>
+            <dd>xxx</dd>
           </dl>
         </div>
       </div>
@@ -119,12 +133,12 @@
       </div>
     </div>
     <p class="downloadResume-wrapper">
-    <a class="downloadResume" href="#" download>下载 PDF 简历</a>      
+      <a class="downloadResume" href="#" download>下载 PDF 简历</a>
     </p>
     <p class="selfIntroduction">个人简介
-     <br> Html/Css/Javascript
+      <br> Html/Css/Javascript
     </p>
-    
+
   </main>
   <section data-x id='siteSkills' class="skills">
     <h2>Professional Skills:专业技能</h2>
@@ -179,7 +193,8 @@
       </li>
     </ol>
   </section>
-  <section data-x id="siteWorks" class="portfolio"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+  <section data-x id="siteWorks" class="portfolio">
     <h2>portfolio:优秀作品集</h2>
     <nav class="clearfix">
       <ol>
@@ -191,8 +206,32 @@
         <div class="bar-inner"></div>
       </div>
     </nav>
-    <script src="./main.js"></script>
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <img src="./img/1.jpg" alt="" class="swiper-slide">
+          <img src="./img/2.jpg" alt="" class="swiper-slide">
+          <img src="./img/3.jpg" alt="" class="swiper-slide">
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
+        <!-- If we need scrollbar -->
+      </div>
   </section>
+  <script src="./js/sticky-topBar.js"></script>
+  <script src="./js/auto-slide-up.js"></script>
+  <script src="./js/smoothly-slide.js"></script>
+  <script src="./js/init-swiper.js"></script>  
+  <script src="./main.js"></script>
+  
 
 </body>
+
 </html>
