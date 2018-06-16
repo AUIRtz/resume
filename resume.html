@@ -225,11 +225,23 @@
         <!-- If we need scrollbar -->
       </div>
   </section>
+  <section class="messages" style="margin: 50px auto; width: 700px;">
+    <ol id="messageBoard">
+      留言
+    </ol>
+    <form id="postMessageForm">
+      <input type="text" name="name">      
+      <input type="text" name="content">
+      <input type="submit" value="提交">
+    </form>
+  </section>
   <script src="./js/sticky-topBar.js"></script>
   <script src="./js/auto-slide-up.js"></script>
   <script src="./js/smoothly-slide.js"></script>
   <script src="./js/init-swiper.js"></script>  
   <script src="./main.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.7.2/dist/av-min.js"></script>
+  <script src="./messageBoard.js"></script>
   
 
 </body>
